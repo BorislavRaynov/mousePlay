@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'channels',
+
+    'mouse_play.mouse_observe'
 ]
 
 MIDDLEWARE = [
@@ -68,6 +71,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'mouse_play.wsgi.application'
+ASGI_APPLICATION = 'mouse_play.asgi.application'
 
 
 # Database
