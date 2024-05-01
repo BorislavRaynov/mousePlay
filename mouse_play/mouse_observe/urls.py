@@ -1,6 +1,6 @@
 from django.urls import path
-from . import views
+from . views import visualization
 
 urlpatterns = [
-    path('', views.visualization, name='visualization'),
+    path('', visualization, name='visualization'),
 ]

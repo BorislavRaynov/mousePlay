@@ -1,10 +1,19 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MousePlay</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
-
+    <div id="video-container">
+        <video id="video" autoplay></video>
+        <canvas id="canvas" width="640" height="480"></canvas>
+    </div>
+    <div id="coordinates"></div>
+    <script src="{% static 'js/mouse_play.js' %}"></script>
 </body>
 </html>
