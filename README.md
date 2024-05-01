@@ -4,11 +4,13 @@ Application which visualize the current reading of serial data from the movement
 OPTIONS TO TEST THE APP
 ---
 1: Running the app on Ubuntu:
+
     - sudo apt update
     - pip install -r requirements. txt
     - python manage.py runserver
 ---
 2: Running the app in Docker Container:
+
     - docker-compose up -d
 
     #to see all the database entities
