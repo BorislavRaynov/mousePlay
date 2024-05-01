@@ -6,7 +6,7 @@ OPTIONS TO TEST THE APP
 1: Running the app on Ubuntu:
 
     - sudo apt update
-    - pip install -r requirements. txt
+    - pip install -r requirements.txt
     - python manage.py runserver
 ---
 2: Running the app in Docker Container:
@@ -18,7 +18,7 @@ OPTIONS TO TEST THE APP
     - python manage.py creatsuperuser #folow the guidelines
     
     #access the database on 127.0.0.1:8000/admin and login with superuser credentials
-    #click on MousClick to see the entities in desc order by time of creation
+    #click on Mous clicks to see the entities in desc order by time of creation
 
 ---
 The app can be accessed on localhost:8000 or 127.0.0.1:8000
