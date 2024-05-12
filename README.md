@@ -18,7 +18,7 @@ OPTIONS TO TEST THE APP
     - python manage.py creatsuperuser #folow the guidelines
     
     #access the database on 127.0.0.1:8000/admin and login with superuser credentials
-    #click on Mous clicks to see the entities in desc order by time of creation
+    #click on Mouse clicks to see the entities in desc order by time of creation
 
 ---
 The app can be accessed on localhost:8000 or 127.0.0.1:8000
