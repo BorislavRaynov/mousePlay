@@ -1,4 +1,4 @@
-Application which visualize the current reading of serial data from the movement of a mouse and when the left mouse’s button is pressed it is taking a picture of a connected webcam. As a final result, to save the current coordinates of the mouse cursor and data-source of the image in SQLite database.
+**Application which visualize the current reading of serial data from the movement of a mouse and when the left mouse’s button is pressed it is taking a picture of a connected webcam. As a final result, to save the current coordinates of the mouse cursor and data-source of the image in SQLite database.
 
 ---
 OPTIONS TO TEST THE APP
@@ -15,10 +15,10 @@ OPTIONS TO TEST THE APP
 
     #to see all the database entities
 
-    - python manage.py creatsuperuser #folow the guidelines
+    - python manage.py createsuperuser #folow the guidelines
     
     #access the database on 127.0.0.1:8000/admin and login with superuser credentials
     #click on Mouse clicks to see the entities in desc order by time of creation
 
 ---
-The app can be accessed on localhost:8000 or 127.0.0.1:8000
+The app can be accessed on localhost:8000 or 127.0.0.1:8000**
