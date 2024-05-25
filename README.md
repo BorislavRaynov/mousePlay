@@ -13,7 +13,7 @@ OPTIONS TO TEST THE APP
 
     - docker-compose up -d
 
-    #to see all the database entities
+    To see all the database entities:
 
     - python manage.py createsuperuser #folow the guidelines
     
